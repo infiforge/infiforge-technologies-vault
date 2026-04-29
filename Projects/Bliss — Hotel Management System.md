@@ -41,14 +41,16 @@ bliss/
 
 ### Backend
 - **Runtime:** Deno (TypeScript)
-- **HTTP Framework:** Hono (should be - AGENTS.md says Express/Oak)
+- **HTTP Framework:** Hono ✅
 - **Database:** MongoDB
 - **Real-time:** WebSockets
 - **Auth:** JWT with OAuth (Google, Microsoft, Apple)
+- **Architecture:** ServiceInstance base class pattern ✅
+- **Routes:** UniversalRoute pattern ✅
 
 ### Frontend
 - **Framework:** Flutter
-- **State Management:** Provider / Riverpod (should be Riverpod with Consumables)
+- **State Management:** Riverpod with Consumables ✅
 - **Platforms:** Android, iOS, Web, Windows, macOS, Linux
 
 ## Key Features
@@ -102,10 +104,14 @@ nx run serve               # Start both frontend and backend
 
 ## Status
 
-- Active service
-- Nx monorepo structure
-- Requires migration to Hono (from Express/Oak)
-- Requires migration to Riverpod with Consumables
+- ✅ Active service
+- ✅ Nx monorepo structure
+- ✅ Hono migration complete
+- ✅ Riverpod with Consumables migration complete
+- ✅ ServiceInstance base class pattern implemented
+- ✅ UniversalRoute pattern implemented
+- ✅ Port configuration fixed (8100-8199)
+- ✅ Tested and working (2026-04-29)
 
 ## Notes
 

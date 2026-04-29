@@ -312,9 +312,13 @@ cd frontend && flutter build web
 
 ## Status
 
-- **Status:** Planning
-- **Port Range:** 8600-8699 (next available after Bliss 8100-8199)
-- **Libraries:** All 11 from ~/work/libraries/deno + 6 from flutter
+- ✅ Active service
+- ✅ Nx monorepo structure
+- ✅ ServiceInstance base class pattern implemented
+- ✅ UniversalRoute pattern implemented
+- ✅ Port configuration fixed (8600-8699)
+- ✅ Tested and working (2026-04-29)
+- Note: Comprehensive VPN/proxy service with 11 Deno libraries
 
 ## Related Decisions
 

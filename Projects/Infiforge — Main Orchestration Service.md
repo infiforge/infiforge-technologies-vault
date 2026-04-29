@@ -49,7 +49,7 @@ infiforge/
 
 ### Frontend
 - **Framework:** Flutter 3.4+
-- **State Management:** Provider (should be Riverpod with Consumables)
+- **State Management:** Riverpod with Consumables ✅
 - **Storage:** Hive
 - **Platforms:** Android, iOS, Web, Desktop
 
@@ -95,11 +95,14 @@ nx run serve
 
 ## Status
 
-- ✅ Uses Deno + Hono (correct!)
+- ✅ Uses Deno + Hono
 - ✅ Uses GraphQL with graphql-yoga
 - ✅ Uses Argon2 for password hashing
 - ✅ Uses Redis for sessions
-- ❌ Frontend uses Provider (should be Riverpod with Consumables)
+- ✅ Riverpod with Consumables migration complete
+- ✅ Port configuration fixed (8000-8099)
+- ✅ Tested and working (2026-04-29)
+- Note: Special case - custom architecture preserved (not ServiceInstance pattern)
 
 ## Notes
 

@@ -42,12 +42,15 @@ kilimo/
 
 ### Backend
 - **Runtime:** Deno (TypeScript)
-- **HTTP Framework:** Hono
+- **HTTP Framework:** Hono ✅
 - **Database:** MongoDB
 - **Real-time:** WebSockets
+- **Architecture:** ServiceInstance base class pattern ✅
+- **Routes:** UniversalRoute pattern ✅
 
 ### Frontend
 - **Framework:** Flutter
+- **State Management:** Riverpod with Consumables ✅
 
 ## Release Information
 
@@ -94,3 +97,11 @@ Each service has `.gitlab-ci.yml` that:
 
 ### Related Services
 - [[Farmup — Farm Management System]] (internal equivalent)
+
+## Status
+
+- ✅ Active service
+- ✅ ServiceInstance base class pattern implemented
+- ✅ UniversalRoute pattern implemented
+- ✅ Port configuration fixed (11000-11099)
+- ✅ Tested and working (2026-04-29)

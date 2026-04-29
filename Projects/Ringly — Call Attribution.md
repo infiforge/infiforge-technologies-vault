@@ -40,14 +40,16 @@ ringly/
 
 ### Backend
 - **Runtime:** Deno (TypeScript)
-- **Web Framework:** Oak or Hono (should be Hono)
+- **Web Framework:** Hono ✅
 - **Database:** MongoDB
 - **Auth:** JWT
 - **External APIs:** Google Ads API (offline conversions)
+- **Architecture:** ServiceInstance base class pattern ✅
+- **Routes:** UniversalRoute pattern ✅
 
 ### Frontend
 - **Framework:** Flutter
-- **State Management:** Provider (should be Riverpod with Consumables)
+- **State Management:** Riverpod with Consumables ✅
 - **Charts:** fl_chart
 
 ## Key Features
@@ -82,9 +84,13 @@ ringly/
 
 ## Status
 
-- Active service
-- Requires migration to Hono
-- Requires migration to Riverpod with Consumables
+- ✅ Active service
+- ✅ Hono migration complete
+- ✅ Riverpod with Consumables migration complete
+- ✅ ServiceInstance base class pattern implemented
+- ✅ UniversalRoute pattern implemented
+- ✅ Port configuration fixed (8800-8899)
+- ⏸️ Pre-existing denomailer dependency issue (not related to refactoring)
 
 ## Notes
 

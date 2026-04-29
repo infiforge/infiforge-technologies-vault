@@ -47,7 +47,7 @@ qihms/
 
 ### Frontend
 - **Framework:** Flutter
-- **State Management:** Riverpod + BLoC (Note: BLoC should be removed, use only Riverpod with Consumables)
+- **State Management:** Riverpod with Consumables ✅
 - **Storage:** Hive
 - **Platforms:** Web, iOS, Android, Desktop
 
@@ -98,10 +98,14 @@ qihms/
 
 ## Status
 
-- Active service
-- Uses Deno backend (good!)
-- Uses GraphQL with WebSocket
-- Frontend uses Riverpod + BLoC (should remove BLoC, use only Riverpod with Consumables)
+- ✅ Active service
+- ✅ Uses Deno backend
+- ✅ Uses GraphQL with WebSocket
+- ✅ Riverpod with Consumables migration complete (BLoC removed)
+- ✅ ServiceInstance base class pattern implemented
+- ✅ UniversalRoute pattern implemented
+- ✅ Port configuration fixed (8700-8799)
+- ✅ Tested and working (2026-04-29)
 
 ## Notes
 

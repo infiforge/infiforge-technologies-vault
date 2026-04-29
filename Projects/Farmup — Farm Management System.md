@@ -40,15 +40,17 @@ farmup/
 
 ### Backend
 - **Runtime:** Deno (TypeScript)
-- **Web Framework:** Hono (should be - may need migration)
+- **Web Framework:** Hono ✅
 - **API:** GraphQL (Apollo Server)
 - **Database:** MongoDB (Mongoose)
 - **Cache:** Redis
 - **Real-time:** Socket.IO, GraphQL-WS
+- **Architecture:** ServiceInstance base class pattern ✅
+- **Routes:** UniversalRoute pattern ✅
 
 ### Frontend
 - **Framework:** Flutter
-- **State Management:** Provider (should be Riverpod with Consumables)
+- **State Management:** Riverpod with Consumables ✅
 - **Storage:** Hive
 - **Platforms:** Android, iOS, Web, Desktop
 
@@ -83,10 +85,14 @@ nx run serve
 
 ## Status
 
-- Active service
-- Nx monorepo structure
-- Requires migration to Deno + Hono
-- Requires migration to Riverpod with Consumables
+- ✅ Active service
+- ✅ Nx monorepo structure
+- ✅ Deno + Hono migration complete
+- ✅ Riverpod with Consumables migration complete
+- ✅ ServiceInstance base class pattern implemented
+- ✅ UniversalRoute pattern implemented
+- ✅ Port configuration fixed (8300-8399)
+- ✅ Tested and working (2026-04-29)
 
 ## Notes
 

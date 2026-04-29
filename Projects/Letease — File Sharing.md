@@ -40,13 +40,15 @@ letease/
 
 ### Backend
 - **Runtime:** Deno (TypeScript)
-- **Web Framework:** Hono (should be - may need migration)
+- **Web Framework:** Hono ✅
 - **Database:** MongoDB
 - **Auth:** JWT
+- **Architecture:** ServiceInstance base class pattern ✅
+- **Routes:** UniversalRoute pattern ✅
 
 ### Frontend
 - **Framework:** Flutter
-- **State Management:** Provider (should be Riverpod with Consumables)
+- **State Management:** Riverpod with Consumables ✅
 - **Storage:** Hive
 
 ## Key Features
@@ -60,9 +62,13 @@ letease/
 
 ## Status
 
-- Active service
-- Requires migration to Deno + Hono
-- Requires migration to Riverpod with Consumables
+- ✅ Active service
+- ✅ Deno + Hono migration complete
+- ✅ Riverpod with Consumables migration complete
+- ✅ ServiceInstance base class pattern implemented
+- ✅ UniversalRoute pattern implemented
+- ✅ Port configuration fixed (8500-8599)
+- ✅ Tested and working (2026-04-29)
 
 ## Notes
 

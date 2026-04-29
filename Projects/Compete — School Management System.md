@@ -37,12 +37,14 @@ compete/
 
 ### Backend
 - **Runtime:** Deno (TypeScript)
-- **HTTP Framework:** Oak (should be Hono)
+- **HTTP Framework:** Hono ✅
 - **Database:** MongoDB
+- **Architecture:** ServiceInstance base class pattern ✅
+- **Routes:** UniversalRoute pattern ✅
 
 ### Frontend
 - **Framework:** Flutter
-- **State Management:** Riverpod
+- **State Management:** Riverpod with Consumables ✅
 - **Platforms:** Android, iOS, Web, Desktop
 
 ## Key Features (Core Modules)
@@ -116,10 +118,14 @@ compete/
 
 ## Status
 
-- Active development
-- Nx monorepo structure
-- Requires migration to Hono (from Oak)
-- Requires migration to Riverpod with Consumables
+- ✅ Active development
+- ✅ Nx monorepo structure
+- ✅ Hono migration complete
+- ✅ Riverpod with Consumables migration complete
+- ✅ ServiceInstance base class pattern implemented
+- ✅ UniversalRoute pattern implemented
+- ✅ Port configuration fixed (8200-8299)
+- ✅ Tested and working (2026-04-29)
 
 ## Notes
 
