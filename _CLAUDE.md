@@ -143,3 +143,54 @@ The master library overview is `Memory/2026-04-11 — Tech Stack Overview.md`
 Services are documented in `Projects/[Name] — [Type].md`:
 - Internal services: `services/internal/[name]/`
 - External services: `services/external/[name]/`
+
+## Systematic Vault Update Process
+
+To keep the vault current with all work in ~/work folder:
+
+### Daily
+- End-of-day journal entry in `Journal/YYYY-MM-DD.md` documenting what was done
+- Use git commit messages as source for journal entries
+
+### Per Change
+- Update relevant project/library note immediately when making changes
+- For service changes: update `Projects/[Name] — [Type].md`
+- For library changes: update `Memory/[Name] Library.md`
+- For architecture decisions: create `Decisions/YYYY-MM-DD — [topic].md`
+
+### Per Decision
+- Create decision note in `Decisions/` BEFORE implementing
+- Use [[Templates/Decision Note Template.md]] for consistency
+
+### Weekly
+- Review vault for outdated notes
+- Check that all recent work is documented
+- Update "updated:" frontmatter fields
+
+### Per Workplan Phase
+- Update vault when workplan phase completes
+- Document completion in Journal
+- Update relevant project notes with new status
+
+### Automation
+- Add vault update step to workplan.md phases
+- Use [[Templates/Daily Journal Template.md]] for daily entries
+- Use [[Templates/Project Note Template.md]] for new services
+- Use [[Templates/Library Note Template.md]] for new libraries
+
+### Templates Available
+
+- [[Templates/Project Note Template.md]] - For new service notes
+- [[Templates/Library Note Template.md]] - For new library documentation
+- [[Templates/Decision Note Template.md]] - For architectural decisions
+- [[Templates/Daily Journal Template.md]] - For daily session logs
+- [[Templates/Service Note Template.md]] - For service-specific notes (AGENTS.md, etc.)
+
+### Areas
+
+For organizing related work:
+- [[Areas/Backend Development]] - Backend services and Deno libraries
+- [[Areas/Frontend Development]] - Flutter frontends and libraries
+- [[Areas/Infrastructure]] - Deployment, monitoring, CI/CD
+- [[Areas/Architecture]] - Architectural decisions and patterns
+- [[Areas/DevOps]] - DevOps practices and automation
