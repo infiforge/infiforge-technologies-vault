@@ -115,7 +115,99 @@ sudo tailscale funnel status
 ssh phone
 ```
 
-## Related
+## Release Infrastructure
+
+> [!info] Updated: 2026-04-29
+
+### Services Folder Structure
+
+```
+~/work/services/
+├── external/
+│   └── kilimo/          # Port 11000
+└── internal/
+    ├── bliss/           # Port 8100
+    ├── compete/        # Port 8200
+    ├── farmup/         # Port 8300
+    ├── hail/          # Port 8400
+    ├── infiforge/      # Port 8000
+    ├── letease/       # Port 8500
+    ├── proxly/        # Port 8600
+    ├── qihms/        # Port 8700
+    ├── ringly/        # Port 8800
+    └── synch/         # Port 8900
+```
+
+### Git Remotes (Per Service)
+
+Each service has three remotes configured:
+
+| Remote | URL | Purpose |
+|--------|-----|---------|
+| `origin` | git@gitlab.com:infiforge1/{service}.git | Primary (GitLab) |
+| `github` | git@github.com:infiforge/{service}.git | Secondary |
+| `all` | git@gitlab.com + git@github.com | Push to both |
+
+### Push Commands
+
+```bash
+# Push to both GitLab AND GitHub simultaneously
+git add .
+git commit -m "Update"
+git push all main
+
+# Push just to GitLab
+git push origin main
+
+# Push just to GitHub
+git push github main
+
+# Create and push a release tag
+git tag flutter-v1.0.0
+git push all flutter-v1.0.0
+```
+
+### CI/CD Pipeline
+
+Each service has a `.gitlab-ci.yml` that:
+1. Builds Flutter app for Linux (x64)
+2. Creates `.tar.gz` archive
+3. Creates `.deb` package
+4. On tag push: creates GitLab release with artifacts
+
+### Repository URLs
+
+| Service | GitLab | GitHub |
+|---------|-------|-------|
+| kilimo | https://gitlab.com/infiforge1/kilimo | https://github.com/infiforge/kilimo |
+| bliss | https://gitlab.com/infiforge1/bliss | https://github.com/infiforge/bliss |
+| compete | https://gitlab.com/infiforge1/compete | https://github.com/infiforge/compete |
+| farmup | https://gitlab.com/infiforge1/farmup | https://github.com/infiforge/farmup |
+| hail | https://gitlab.com/infiforge1/hail | https://github.com/infiforge/hail |
+| infiforge | https://gitlab.com/infiforge1/infiforge | https://github.com/infiforge/infiforge |
+| letease | https://gitlab.com/infiforge1/letease | https://github.com/infiforge/letease |
+| proxly | https://gitlab.com/infiforge1/proxly | https://github.com/infiforge/proxly |
+| qihms | https://gitlab.com/infiforge1/qihms | https://github.com/infiforge/qihms |
+| ringly | https://gitlab.com/infiforge1/ringly | https://github.com/infiforge/ringly |
+| synch | https://gitlab.com/infiforge1/synch | https://github.com/infiforge/synch |
+
+### Local Paths
+
+```bash
+~/work/services/external/kilimo
+~/work/services/internal/bliss
+~/work/services/internal/compete
+~/work/services/internal/farmup
+~/work/services/internal/hail
+~/work/services/internal/infiforge
+~/work/services/internal/letease
+~/work/services/internal/proxly
+~/work/services/internal/qihms
+~/work/services/internal/ringly
+~/work/services/internal/synch
+```
+
+### Related
 - [[Tailscale Setup]]
 - [[Caddy Reverse Proxy]]
 - [[Service Deployment]]

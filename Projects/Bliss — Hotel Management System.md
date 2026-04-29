@@ -112,3 +112,33 @@ nx run serve               # Start both frontend and backend
 - Uses infiforge libraries
 - Config via config.json (not .env)
 - Service-specific setup required
+
+## Release Information
+
+> [!info] Added: 2026-04-29
+
+### Repository URLs
+
+| Service | GitLab | GitHub |
+|---------|-------|-------|
+| **Bliss** | https://gitlab.com/infiforge1/bliss | https://github.com/infiforge/bliss |
+
+### Git Remotes
+
+| Remote | URL | Purpose |
+|--------|-----|---------|
+| `origin` | git@gitlab.com:infiforge1/bliss.git | Primary (GitLab) |
+| `github` | git@github.com:infiforge/bliss.git | Secondary |
+| `all` | git@gitlab.com + git@github.com | Push to both |
+
+### Local Path
+```
+~/work/services/internal/bliss
+```
+
+### Push Commands
+```bash
+git push all main
+git tag flutter-v1.0.0
+git push all flutter-v1.0.0
+```
