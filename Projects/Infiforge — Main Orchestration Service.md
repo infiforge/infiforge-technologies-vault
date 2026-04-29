@@ -107,3 +107,12 @@ nx run serve
 - Uses infiforge Deno libraries
 - Config via config.json
 - Frontend needs migration to Riverpod with Consumables
+
+## Release Information
+
+> [!info] Added: 2026-04-29
+
+- GitLab: https://gitlab.com/infiforge1/infiforge
+- GitHub: https://github.com/infiforge/infiforge
+- Path: `~/work/services/internal/infiforge`
+- Push: `git push all main`

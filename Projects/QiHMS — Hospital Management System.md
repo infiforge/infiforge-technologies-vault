@@ -109,3 +109,12 @@ qihms/
 - Config via config.json
 - Healthcare data privacy critical
 - Audit logging required for all patient access
+
+## Release Information
+
+> [!info] Added: 2026-04-29
+
+- GitLab: https://gitlab.com/infiforge1/qihms
+- GitHub: https://github.com/infiforge/qihms
+- Path: `~/work/services/internal/qihms`
+- Push: `git push all main`

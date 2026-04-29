@@ -93,3 +93,12 @@ nx run serve
 - Uses infiforge libraries
 - Config via config.json (not .env)
 - Browser extension for quick access
+
+## Release Information
+
+> [!info] Added: 2026-04-29
+
+- GitLab: https://gitlab.com/infiforge1/farmup
+- GitHub: https://github.com/infiforge/farmup
+- Path: `~/work/services/internal/farmup`
+- Push: `git push all main`

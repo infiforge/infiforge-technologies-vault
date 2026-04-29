@@ -68,3 +68,12 @@ letease/
 
 - Uses infiforge libraries
 - Similar to Farmup - verify if duplicate
+
+## Release Information
+
+> [!info] Added: 2026-04-29
+
+- GitLab: https://gitlab.com/infiforge1/letease
+- GitHub: https://github.com/infiforge/letease
+- Path: `~/work/services/internal/letease`
+- Push: `git push all main`

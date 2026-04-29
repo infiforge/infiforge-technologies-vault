@@ -91,3 +91,12 @@ ringly/
 - Uses infiforge Deno libraries
 - Google Ads API integration critical
 - Multi-tenant for agencies and clients
+
+## Release Information
+
+> [!info] Added: 2026-04-29
+
+- GitLab: https://gitlab.com/infiforge1/ringly
+- GitHub: https://github.com/infiforge/ringly
+- Path: `~/work/services/internal/ringly`
+- Push: `git push all main`

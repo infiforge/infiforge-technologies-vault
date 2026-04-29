@@ -324,3 +324,12 @@ cd frontend && flutter build web
 - Direct library imports for AuthPage and SetupPage
 - Pages folder instead of features
 - Universal routes supporting HTTP + WS + GraphQL
+
+## Release Information
+
+> [!info] Added: 2026-04-29
+
+- GitLab: https://gitlab.com/infiforge1/proxly
+- GitHub: https://github.com/infiforge/proxly
+- Path: `~/work/services/internal/proxly`
+- Push: `git push all main`

@@ -126,3 +126,22 @@ compete/
 - Uses infiforge libraries
 - Offline-first Flutter design
 - Multi-tenant support (SaaS model)
+
+## Release Information
+
+> [!info] Added: 2026-04-29
+
+### Repository URLs
+
+- GitLab: https://gitlab.com/infiforge1/compete
+- GitHub: https://github.com/infiforge/compete
+
+### Local Path
+```
+~/work/services/internal/compete
+```
+
+### Push
+```bash
+git push all main
+```

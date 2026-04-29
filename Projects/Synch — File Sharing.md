@@ -66,3 +66,12 @@ synch/
 
 - Uses infiforge libraries
 - Config via config.json
+
+## Release Information
+
+> [!info] Added: 2026-04-29
+
+- GitLab: https://gitlab.com/infiforge1/synch
+- GitHub: https://github.com/infiforge/synch
+- Path: `~/work/services/internal/synch`
+- Push: `git push all main`

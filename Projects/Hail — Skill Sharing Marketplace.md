@@ -98,3 +98,12 @@ firebase deploy
 - Uses Firebase instead of infiforge Deno libraries
 - Config via Firebase Console
 - Different architecture pattern from other services
+
+## Release Information
+
+> [!info] Added: 2026-04-29
+
+- GitLab: https://gitlab.com/infiforge1/hail
+- GitHub: https://github.com/infiforge/hail
+- Path: `~/work/services/internal/hail`
+- Push: `git push all main`
