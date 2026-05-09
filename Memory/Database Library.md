@@ -101,7 +101,7 @@ Each MongoDB config has explicit user, password, and database fields:
 | proxly | mongodb+srv://proxly.47g8cyv.mongodb.net/?authSource=%24external&authMechanism=MONGODB-X509&appName=proxly | mongodb+srv://proxly:qzaFzF6blY5mHNBG@proxly.47g8cyv.mongodb.net/?appName=proxly | proxly | 9qcDaCiD2KzXbtWI | proxly |
 | qihms | mongodb+srv://qihms.nq5n4cw.mongodb.net/?authSource=%24external&authMechanism=MONGODB-X509&appName=qihms | mongodb+srv://qihms:bey5ftrMQwDIIQgr@qihms.nq5n4cw.mongodb.net/?appName=qihms | qihms | NItfbIVzPE9Zj34n | qihms |
 | ringly | mongodb+srv://ringly.ugnypue.mongodb.net/?authSource=%24external&authMechanism=MONGODB-X509&appName=ringly | mongodb+srv://ringly:vAIf7auXvJqjvvxO@ringly.ugnypue.mongodb.net/?appName=ringly | ringly | vAIf7auXvJqjvvxO | ringly |
-| synch | mongodb+srv://synch.evxlexo.mongodb.net/?authSource=%24external&authMechanism=MONGODB-X509&appName=Synch | mongodb+srv://synch:MvnxeUFBRy9f7UJP@synch.evxlexo.mongodb.net/?appName=Synch | synch | mkTiwtsz1GOC8JJh | synch |
+| synch | mongodb+srv://synch.evxlexo.mongodb.net/?authSource=%24external&authMechanism=MONGODB-X509&appName=Synch | mongodb+srv://synch:ES6IFNvt4TGn19Z2@synch.evxlexo.mongodb.net/?appName=Synch | synch | ES6IFNvt4TGn19Z2 | synch |
 
 ### MySQL Credentials (kilimo)
 
