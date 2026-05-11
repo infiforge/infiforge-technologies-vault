@@ -9,6 +9,11 @@ tags:
 
 # Synch - File Sharing Application
 
+## AGENTS.md
+
+- **Codebase:** `services/internal/synch/AGENTS.md`
+- **Description:** Comprehensive AI agent guide for Synch service
+
 ## Service Details
 
 | Attribute | Value |

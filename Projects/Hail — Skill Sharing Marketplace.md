@@ -9,6 +9,11 @@ tags:
 
 # Hail - Skill-Sharing Marketplace
 
+## AGENTS.md
+
+- **Codebase:** `services/internal/hail/AGENTS.md`
+- **Description:** Comprehensive AI agent guide for Hail service
+
 ## Service Details
 
 | Attribute | Value |

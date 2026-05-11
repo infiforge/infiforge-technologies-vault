@@ -9,6 +9,11 @@ tags:
 
 # Letease - File Sharing & Download Manager
 
+## AGENTS.md
+
+- **Codebase:** `services/internal/letease/AGENTS.md`
+- **Description:** Comprehensive AI agent guide for Letease service
+
 ## Service Details
 
 | Attribute | Value |

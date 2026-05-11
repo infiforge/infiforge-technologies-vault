@@ -9,6 +9,11 @@ tags:
 
 # Farmup - Farm Management System
 
+## AGENTS.md
+
+- **Codebase:** `services/internal/farmup/AGENTS.md`
+- **Description:** Comprehensive AI agent guide for Farmup service
+
 ## Service Details
 
 | Attribute | Value |

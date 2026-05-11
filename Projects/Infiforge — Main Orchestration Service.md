@@ -9,6 +9,11 @@ tags:
 
 # Infiforge - Main Orchestration Service
 
+## AGENTS.md
+
+- **Codebase:** `services/internal/infiforge/AGENTS.md`
+- **Description:** Comprehensive AI agent guide for Infiforge service
+
 ## Service Details
 
 | Attribute | Value |

@@ -8,6 +8,11 @@ tags:
 
 # Bliss - Hotel Management System (HMS)
 
+## AGENTS.md
+
+- **Codebase:** `services/internal/bliss/AGENTS.md`
+- **Description:** Comprehensive AI agent guide for Bliss service
+
 ## Service Details
 
 | Attribute | Value |

@@ -9,6 +9,11 @@ tags:
 
 # Kilimo - Farm Management System
 
+## AGENTS.md
+
+- **Codebase:** `services/external/kilimo/AGENTS.md`
+- **Description:** Comprehensive AI agent guide for Kilimo service
+
 ## Service Details
 
 | Attribute | Value |

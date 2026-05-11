@@ -9,6 +9,11 @@ tags:
 
 # QiHMS - Hospital Management System
 
+## AGENTS.md
+
+- **Codebase:** `services/internal/qihms/AGENTS.md`
+- **Description:** Comprehensive AI agent guide for QiHMS service
+
 ## Service Details
 
 | Attribute | Value |

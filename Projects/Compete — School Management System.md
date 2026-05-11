@@ -9,6 +9,11 @@ tags:
 
 # Compete - School & Institution Management System
 
+## AGENTS.md
+
+- **Codebase:** `services/internal/compete/AGENTS.md`
+- **Description:** Comprehensive AI agent guide for Compete service
+
 ## Service Details
 
 | Attribute | Value |

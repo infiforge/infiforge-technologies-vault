@@ -11,6 +11,11 @@ tags:
 
 # Proxly - Distributed VPN & Proxy Service
 
+## AGENTS.md
+
+- **Codebase:** `services/internal/proxly/AGENTS.md`
+- **Description:** Comprehensive AI agent guide for Proxly service
+
 ## Service Details
 
 | Attribute | Value |
